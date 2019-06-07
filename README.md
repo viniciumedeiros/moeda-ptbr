@@ -1,10 +1,17 @@
-# Converter moeda para formato brasileiro (pt-br)
-<p>Funções que facilitam a formatação número inteiro para decimal no formato brasileiro</p>
-<p>Utilizaremos a função com o objetivo de colocar o número nos padrões da moeda local que recebe o parametro $numero</br>
-Existe maneiras mais fácil, mas o objetivo e trabalhar com conhecimentos.
-</p>
+# Calculando Porcentagem
+<p>Porcentagem é essencial para qualquer programa que se preze por gráficos, cálculo de juros, distância percorrida e milhares de outros tipos de relatórios que vão do básico ao avançadíssimo.</p>
 
-## Formatando moeda
+## QUANTO É X% DE Y?
 <pre>
-moeda(1999999.99) // 1.999.999,99
+porcentagem_xy(99, 100) // 99
+</pre>
+
+## Y É X% DE Y
+<pre>
+porcentagem_yx(99, 100) // 99
+</pre>
+
+## Y É Y% DE X
+<pre>
+porcentagem_yyx(99, 100) // 99
 </pre>
